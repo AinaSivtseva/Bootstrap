@@ -1,0 +1,65 @@
+/* собственные стили  */
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    background: #030e2ce8;
+
+
+}
+
+
+
+.row>* {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: 5%;
+}
+
+.col {
+    flex: 1 0 0%;
+    margin-top: 10px;
+}
+
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1229px;
+}
+
+
+.title {
+
+    
+    width: 640px;
+    height: 32px;
+    left: 400px;
+    top: 1257px;
+    text-align: center;
+    color: #767E94;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+.button{
+    padding: 54px;
+}
